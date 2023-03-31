@@ -127,3 +127,21 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ /* Versione Tablet */
+
+ @media all and (max-width: 768px) {
+    .lessons{
+        flex-wrap: wrap;
+
+        
+    }
+    .row{
+        width: 45%;
+    }
+
+   
+
+
+    
+ }
