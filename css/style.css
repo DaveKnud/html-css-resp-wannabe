@@ -131,17 +131,14 @@ img {
  /* Versione Tablet */
 
  @media all and (max-width: 768px) {
-    .lessons{
-        flex-wrap: wrap;
-
-        
-    }
-    .row{
-        width: 45%;
-    }
-
-   
-
-
     
- }
+    .row{
+      flex-wrap: wrap;
+      justify-content: center;
+     
+    }
+
+    .col{
+        width:100%;
+    }
+}
