@@ -130,15 +130,46 @@ img {
 
  /* Versione Tablet */
 
- @media all and (max-width: 768px) {
-    
-    .row{
-      flex-wrap: wrap;
-      justify-content: center;
-     
+                /* Lesson text center */
+
+ @media all and (max-width: 480px) {
+
+    .text-center{
+        text-align: start;
     }
 
-    .col{
+.row{
+    flex-wrap: wrap;
+}
+
+.lessons .col{
         width:100%;
-    }
+}
+
+.lessons .col img,
+.steps .col img{
+    height: 14em;
+    margin-bottom: 6rem;
+}
+
+                /* Steps section */
+
+.Steps .row{
+    display: flex;
+}
+
+.steps .col{
+    width: 100%;
+}
+
+                /* Why us section */
+
+.why-us .row{
+    display: flex;
+}
+
+.col.col-left, .col.col-right{
+    width: 100%;
+}
+
 }
